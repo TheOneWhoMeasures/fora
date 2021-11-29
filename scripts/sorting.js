@@ -1,13 +1,18 @@
 export {chapters};
 import {sRec, nav} from "./selectors.js";
+import * as Reader from "./reader.js";
 
 function readChapter(nData) {
-  
+  fetch(nData.loc)
+    .then(data => data.text())
+    .then(text => Reader.addBody(text));
 }
 
 function addButton(tc, nData) {
   const button = document.createElement("button");
-  button.addEventListener("click",readChapter(nData))
+  button.addEventListener("click", () => {
+    readChapter(nData);
+  });
   button.textContent = tc;
   nav.appendChild(button);
 }

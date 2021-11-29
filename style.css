@@ -19,6 +19,26 @@ nav {
  
 }
 
+form button {
+  border: 1px solid #FFFFFF;
+  border-radius: 1em;
+}
+
+form input {
+  color: black;
+  background-color: #F5D2D6;
+  border: 1px solid #FFFFFF;
+  border-radius: 1em;
+}
+
+form textarea {
+  color: black;
+  background-color: #F5D2D6;
+  border: 1px solid #FFFFFF;
+  border-radius: 1em;
+}
+
+
 nav button:hover {
   right: 0px;
 }
@@ -29,6 +49,9 @@ h1 {
 }
 
 #reader {
-  background-color: white;
+  background-color: #F5D2D6;
   color: black;
+  border: 1px solid #FFFFFF;
+  border-radius: 1em;
+  font-size: 12px;
 }
