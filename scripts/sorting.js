@@ -7,7 +7,7 @@ function readChapter(nData) {
 
 function addButton(tc, nData) {
   const button = document.createElement("button");
-  button.addEventListener("click",readChapter(data))
+  button.addEventListener("click",readChapter(nData))
   button.textContent = tc;
   nav.appendChild(button);
 }
