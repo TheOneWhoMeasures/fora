@@ -5,8 +5,6 @@ const form = {
   message: document.querySelector("#message")
 }
 
-console.log(form);
-
 function submitMessage() {
  emailjs.send("service_x8gitpp", "template_sjb4cdr", {
     to_name: "The One Who Measures",
