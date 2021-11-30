@@ -16,13 +16,14 @@
 
 <body>
   <h3>Did you like the story? Got something to say?</h3>
-    <span>From: </span><input id="from"/>
+  <form method="POST" action="https://formspree.io/f/xknywqyg">
+    <span>From: </span><input name="from" id="from"/>
     <p>Message:</p>
-    <textarea id="message"></textarea>
+    <textarea name="message" id="message"></textarea>
     <br/>
-    <div id="send">Send</div>
+    <button id="send">Send</button>
+  </form>
 </script>
-  <script type="module" src="/scripts/contact.js"></script>
 </body>
 
 </html>
