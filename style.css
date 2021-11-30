@@ -45,15 +45,58 @@ nav button:hover {
   right: 0px;
 }
 
-h1 {
-  color: gold;
-  opacity: 0.5;
+h4 {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 0.5px white;
 }
 
+.logo {
+  width: 40%;
+  position: absolute;
+  opacity: 0.25;
+  left: 60%;
+  top: 80%;
+  transition: 1s;
+}
+
+@font-face {
+  font-family: WhiteDream;
+  src: url("fonts/WhiteDreamPERSONALUSEONLY-Regular.otf");
+}
+
+@font-face {
+  font-family: DearLove;
+  src: url("fonts/DearLove.ttf");
+}
+
+@font-face {
+  font-family: PinkySmoke;
+  src: url("fonts/Pinky Smoke.ttf");
+}
+
+.logo:hover {
+  opacity: 1;
+}
 #reader {
-  background-color: #F5D2D6;
-  color: black;
+  background: rgba(25,0,25,0.15);
+  color: white;
+  font-family: Helvetica;
+  padding-left: 4px;
   border: 1px solid #FFFFFF;
   border-radius: 1em;
-  font-size: 12px;
+  font-size: 18px;
+  transition: 1s;
+  padding-right: 2px;
 }
+
+#reader:hover {
+  background: rgba(25,0,25,0.25);
+}
+
+#subtext {
+  position: absolute;
+  top: 1.5%;
+  left: 35%;
+  color: rgba(0,0,0,0);
+  -webkit-text-stroke: 0.5px white;
+} 

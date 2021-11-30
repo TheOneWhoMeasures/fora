@@ -24,7 +24,7 @@ function addChapters(nData){
 
 function chapters(data) {
   sRec.innerText = data.most_rec;
-  function recursion(curr=1, index=data.available.length, nData=null) {
+  function recursion(curr=0, index=data.available.length, nData=null) {
     if(nData !== null) addChapters(nData);
     if(curr < index) recursion(curr+1, index, data.chapters[curr]);
   }
