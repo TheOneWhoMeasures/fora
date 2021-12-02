@@ -1,12 +1,7 @@
 {
-  "most_rec": "Dec. 1, 2021",
-  "available": [0,1,2,3,6573838292947],
+  "most_rec": "Dec. 2, 2021",
+  "available": [1,2,3,4,6573838292947],
   "chapters": {
-    "0": {
-      "date": "To A, how to use this website",
-      "num": "xx",
-      "loc": "chapters/guide.txt"
-    },
     "1": {
       "date": "Nov. 29, 2021",
       "num": "01",
@@ -21,6 +16,11 @@
       "date": "Dec. 1, 2021",
       "num": "02",
       "loc": "chapters/2.txt"
+    },
+    "4": {
+      "date": "Dec 2, 2021",
+      "num": "03",
+      "loc": "chapters/3.txt"
     }
   }
 }
