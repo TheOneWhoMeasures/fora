@@ -1,6 +1,6 @@
 {
-  "most_rec": "Updating tomorrow.. Dec 5, trying to get through a writer's block",
-  "available": [1,2,3,4,6573838292947],
+  "most_rec": "Dec 6, 2021 (sorry i fell asleep yesternight)",
+  "available": [1,2,3,4,5,6573838292947],
   "chapters": {
     "1": {
       "date": "Nov. 29, 2021",
@@ -21,6 +21,11 @@
       "date": "Dec 2, 2021",
       "num": "03",
       "loc": "chapters/3.txt"
+    },
+    "5": {
+      "date": "Dec 6, 2021",
+      "num": "04",
+      "loc": "chapters/4.txt"
     }
   }
 }
